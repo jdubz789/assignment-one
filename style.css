@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 10px;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: 'shadows Into light', cursive;
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+  .business-info {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .business-info p:nth-child(2) {
+    font-size: 35px;
+  }
+  .business-info p:nth-child(3) {
+    color: grey;
+  }
+  
+  .contact-info {
+    background-color: rgb(255, 255, 255);
+    margin-top: -30px;
+  }
+
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 220px
+  }
+ .address-box{
+    border: 5px solid rgb(255, 255, 255);
+    flex: 1;
+    text-align: left;
+ }
+
+ .address-box p{
+  margin: 5px;
+ }
+
+ .contact-box{
+    border: 5px solid rgb(255, 255, 255);
+    flex:1;
+    text-align: left;
+ }
+ .contact-box p{
+  margin: 5px;
+ }
+  
+ .chat-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff0000;
+  color: #0000ff;
+  padding: 30px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.chat-button:hover {
+  background-color: #00ff00
+}
+  .copyright {
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    border:solid 0px rgb(255, 255, 255);
+    font-size:18px;
+ }
+
+ .logo{
+  width:220px;
+  height:220px;
+  position: absolute;
+  top:-550px;
+  left:-30px;
+ }
